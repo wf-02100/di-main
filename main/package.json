@@ -1,0 +1,21 @@
+{
+  "name": "@02100/deutschland-immobilien",
+  "version": "0.0.0",
+  "description": "Minimalistic template repository for building rich native JavaScript / jQuery applications for Webflow",
+  "default": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir ./dist --no-source-maps"
+  },
+  "author": "02100 Digital GmbH",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "core-js": "^3.29.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
